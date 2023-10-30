@@ -1,0 +1,78 @@
+.h2-pop{
+    font-size: 20px;
+    font-weight: 600;
+}
+.feedback-div{
+    padding: 5rem 5rem;
+}
+.p-pop{
+  font-size: 12px;
+}
+.card-pop{
+    background-color: rgb(61, 185, 61);
+    padding: 2rem 2rem;
+    margin: 2rem 5rem;
+    color: #fff;
+    box-shadow: 5px 5px 5px #fff;
+    box-shadow: 10px 5px 5px 5px rgb(85, 204, 85);
+}
+.card-pop-1{
+  background-color: rgb(61, 185, 61);
+  padding: 2rem 2rem;
+  width: 100%;
+  color: #fff;
+  box-shadow: 5px 5px 5px #fff;
+  box-shadow: 10px 5px 5px 5px rgb(85, 204, 85);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customer-pop{
+ display: flex;
+
+}
+.logo-flex{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    
+}
+
+.left-button{
+    background-color: rgb(57, 200, 57);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size:15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left-button, .mw{
+   background-color: #fff;
+   color: black;
+}
+.right-button, .mm{
+    background-color:rgb(57, 200, 57) ;
+}
+.right-button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size:15px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    
+}
+@media screen and (max-width:768px) {
+    .card-pop{
+        width: 100%;
+      margin-left: -30px;
+      display: flex;
+      align-items: center;
+    }
+    .feedback-div{
+        width: 100%;
+    }
+    .right-card-img{
+       padding: 30px;
+    }
+}
